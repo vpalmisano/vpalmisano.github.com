@@ -3,37 +3,42 @@ layout: archive
 ---
 
 <h1>About me</h1>
-<strong>PhD, Staff Video Engineer and Full Stack Developer.</strong>
+
 <div>
-More than 10y experience in developing and deploying applications for multimedia 
-streaming and video conference services, including web, backend services, and 
-cloud infrastructure.
-</div>
-<div>
-Working on the design and development of scalable, high-performance 
-and fault-tolerant systems for real-time communication, with a focus on WebRTC, 
-HLS and related technologies.
-</div>
-<div>
-Author of open source tools and extensions that can be used to tests and measure 
-the performance and the quality of live streaming and real-time conferencing systems.
+  <strong>PhD, Staff Video Engineer and Full Stack Developer.</strong>
+  <div>
+  More than 10y experience in developing and deploying applications for multimedia 
+  streaming and video conference services, including web, backend services, and 
+  cloud infrastructure.
+  </div>
+  <div>
+  Working on the design and development of scalable, high-performance 
+  and fault-tolerant systems for real-time communication, with a focus on WebRTC, 
+  HLS and related technologies.
+  </div>
+  <div>
+  Author of open source tools and extensions that can be used to tests and measure 
+  the performance and the quality of live streaming and real-time conferencing systems.
+  </div>
 </div>
 
 <hr>
 
 {{ content }}
 
-<h2>{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h2>
+<div class="notice--primary">
+  <b>{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</b>
 
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
+  {% if paginator %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %}
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% include documents-collection.html entries=posts type=entries_layout %}
+  {% assign entries_layout = page.entries_layout | default: 'list' %}
+  <div class="entries-{{ entries_layout }}">
+    {% include documents-collection.html entries=posts type=entries_layout %}
+  </div>
+
+  {% include paginator.html %}
 </div>
-
-{% include paginator.html %}
