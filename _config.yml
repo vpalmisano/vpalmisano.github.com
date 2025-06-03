@@ -24,6 +24,8 @@ github_username: vpalmisano
 minimal_mistakes_skin: dark
 search: true
 
+repository: vpalmisano/vpalmisano.github.io
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
