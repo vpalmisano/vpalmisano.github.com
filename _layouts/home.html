@@ -1,0 +1,38 @@
+---
+layout: archive
+---
+
+<strong>PhD, Staff Video Engineer and Full Stack Developer.</strong>
+<div>
+More than 10y experience in developing and deploying applications for multimedia 
+streaming and video conference services, including web, backend services, and 
+cloud infrastructure.
+</div>
+<div>
+I've been working on the design and development of scalable, high-performance 
+and fault-tolerant systems for real-time communication, with a focus on WebRTC, 
+HLS and related technologies.
+</div>
+<div>
+Author of open source tools and extensions that can be used to tests and measure 
+the performance and the quality of live streaming and real-time conferencing systems.
+</div>
+
+{{ content }}
+
+<hr/>
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% include documents-collection.html entries=posts type=entries_layout %}
+</div>
+
+{% include paginator.html %}
