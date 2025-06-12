@@ -3,9 +3,7 @@ title: "Testing Applications with Network Constraints"
 categories:
 - Testing
 tags:
-- testing
-- network
-- constraints
+- throttler
 last_modified_at: 2025-02-09T12:00:00+02:00
 ---
 

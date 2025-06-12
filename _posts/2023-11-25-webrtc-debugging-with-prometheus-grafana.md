@@ -3,9 +3,7 @@ title: "WebRTC debugging with Prometheus/Grafana"
 categories:
 - Testing
 tags:
-- testing
-- webrtc
-- monitoring
+- webrtc-internals-exporter
 last_modified_at: 2023-11-25T12:00:00+02:00
 ---
 
