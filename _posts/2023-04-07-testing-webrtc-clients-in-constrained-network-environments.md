@@ -1,7 +1,7 @@
 ---
 title: "Testing WebRTC clients in constrained network environments"
 categories:
-- Testing
+- Articles
 tags:
 - webrtcperf
 last_modified_at: 2023-04-07T12:00:00+02:00
