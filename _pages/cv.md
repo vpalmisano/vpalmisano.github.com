@@ -5,9 +5,10 @@ layout: single
 ---
 
 ## Work experience
+* **August 2025 - Present: Software Engineer at [Miro](https://miro.com)** - Working on the Miro WebRTC and audio/video components.
 * **August 2023 - May 2025: Staff Video Developer at [RingCentral](https://www.ringcentral.com/)** - I've contributed to the design, development, monitoring and testing of the RingCentral Video and RingCentral Events (formerly Hopin) products, working on the WebRTC and on the video streaming tech stacks, improving the services in order to scale to thousands of concurrent users with hundred of published audio/video streams for each conference room. I had the opportunity to manage the technology stack in multiple aspects, from user interface to data transport, down to server infrastructure management, looking for solutions for optimal management of the platform. I've also contributed to the media encoding stack implementing optimizations to get perfect recordings of the video conferencing sessions and to distribute the streams using HTTP Live Streaming (HLS) protocol. I have deepened my knowledge regarding using AI technologies in the realtime and live streaming environments, in particular integrating audio-to-speech and speech-to-audio techniques with WebRTC and using video segmentation and recognition.
 * **June 2021 - July 2023: Staff Developer at [Hopin](https://hopin.com)** - I've contributed to the design, development and testing of the real-time communication platform that powered the session.com and Hopin Events products. With my webrtcperf testing tool, we have been able to evaluate system performance with thousands of concurrent generated participants, helping find bottlenecks, CPU overloads, memory hogs and fixing bugs before they are introduced into production, ensuring a quality service comparable with the state of the art in videoconferencing systems.
-* **July 2012 - June 2021: Researcher at “Dipartimento di Ingegneria Elettrica e dell’Informazione (DEI) of the Polytechnic University of Bari”** on the research topics: 
+* **July 2012 - June 2021: Researcher at “Dipartimento di Ingegneria Elettrica e dell’Informazione (DEI) of the Polytechnic University of Bari”** on the research topics:
   * December 2020 - June 2021: “Multi-agent deeP ReinfOrceMEnT learning witH applications to thE IndUStry4.0 automation scenarios (PROMETHEUS 4.0)”.
   * August 2018 - December 2020: "Study of control algorithms for the distribution of video content in immersive and multi-angle mode" - research project: "CLIPS".
   * May 2017 - April 2018: "Collaboration in the study, design and testing of low-delay transport protocols".
@@ -18,7 +19,7 @@ layout: single
   * July 2012 - March 2013: “Study of connectivity issues” - research project: “G.A.I.A. GENERALIZED AUTOMATIC EXCHANGE OF PORT INFORMATION AREA” E.T.C.P. Greece Italy 2007 2013.
 * **November 2015 - September 2018: Contractor at “Consorzio per la ricerca nell’automatica e nelle telecomunicazioni (C.R.A.T.)”** - research projects: "BONVOYAGE" and "ATENA" (H2020 program).
 * **Jul 2010 - Jun 2021: Co-Founder and Full stack developer at Quavlive S.r.l.** - Software design and development of the QuavStreams platform, that powered [GARR.tv](https://garr.tv/w/aPsMLCoYcjUMBRNghPGJPj) and software development for the [EduMeet](https://edumeet.org/) platform.
-* **July 2006 - December 2006: Contractor at “Politecnico di Torino”** on the research topic: “Performance analysis of innovative internet congestion control techniques”. 
+* **July 2006 - December 2006: Contractor at “Politecnico di Torino”** on the research topic: “Performance analysis of innovative internet congestion control techniques”.
 
 ## Education
 * **January 2007 - April 2010**: Information Engineering Ph.D. at “Polytechnic University of Bari” with the thesis: “Control Algorithms for multimedia streaming”.
@@ -27,7 +28,7 @@ layout: single
 
 ## Skills
 * Operating Systems
-  * Advanced usage: Linux (Debian, Ubuntu) 
+  * Advanced usage: Linux (Debian, Ubuntu)
   * Basic usage: MacOS, Windows
 * Programming languages
   * Good/Advanced level: C, C++, Javascript/NodeJS, TypeScript, Python, Bash, HTML, CSS
