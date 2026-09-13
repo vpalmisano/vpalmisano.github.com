@@ -5,9 +5,15 @@ layout: single
 ---
 
 ## Work experience
-* **August 2025 - Present: Software Engineer at [Miro](https://miro.com)** - Working on the Miro WebRTC and audio/video components.
-* **August 2023 - May 2025: Staff Video Developer at [RingCentral](https://www.ringcentral.com/)** - I've contributed to the design, development, monitoring and testing of the RingCentral Video and RingCentral Events (formerly Hopin) products, working on the WebRTC and on the video streaming tech stacks, improving the services in order to scale to thousands of concurrent users with hundred of published audio/video streams for each conference room. I had the opportunity to manage the technology stack in multiple aspects, from user interface to data transport, down to server infrastructure management, looking for solutions for optimal management of the platform. I've also contributed to the media encoding stack implementing optimizations to get perfect recordings of the video conferencing sessions and to distribute the streams using HTTP Live Streaming (HLS) protocol. I have deepened my knowledge regarding using AI technologies in the realtime and live streaming environments, in particular integrating audio-to-speech and speech-to-audio techniques with WebRTC and using video segmentation and recognition.
-* **June 2021 - July 2023: Staff Developer at [Hopin](https://hopin.com)** - I've contributed to the design, development and testing of the real-time communication platform that powered the session.com and Hopin Events products. With my webrtcperf testing tool, we have been able to evaluate system performance with thousands of concurrent generated participants, helping find bottlenecks, CPU overloads, memory hogs and fixing bugs before they are introduced into production, ensuring a quality service comparable with the state of the art in videoconferencing systems.
+* **August 2025 - Present: Software Engineer at [Miro](https://miro.com)** - I've worked across browser clients and media/backend services on the Miro audio/video infrastructure (WebRTC realtime/streaming and recordings), integrated with AI media handling (audio transcriptions, diarization and multimodal content extraction). Main tasks:
+  - optimize video processing on client and server side;
+  - add the AV1 video codec in the client and server components;
+  - design and develop the Talktrack Chrome extension product;
+  - add AI diarization and advanced insights processing for Talktrack recordings;
+  - realtime/voice-agent audio pipeline for the Miro Sidekicks AI agent;
+  - test and optimize the realtime audio processing data flows.
+* **August 2023 - May 2025: Staff Video Developer at [RingCentral](https://www.ringcentral.com/)** - I've contributed to the design, development, monitoring and testing of the RingCentral Video and RingCentral Events (formerly Hopin) products, working on the WebRTC and on the video streaming tech stacks, improving the services in order to scale to thousands of concurrent users with hundreds of published audio/video streams for each conference room. I had the opportunity to manage the technology stack in multiple aspects, from user interface to data transport, down to server infrastructure management, looking for solutions for optimal management of the platform. I've also contributed to the media encoding stack implementing optimizations to get perfect recordings of the video conferencing sessions and to distribute the streams using HTTP Live Streaming (HLS) protocol. I have deepened my knowledge regarding using AI technologies in the realtime and live streaming environments, in particular integrating STT and TTS techniques with WebRTC and using video segmentation and recognition.
+* **June 2021 - July 2023: Staff Developer at [Hopin](https://hopin.com)** - I've contributed to the design, development and testing of the real-time communication platform that powered the session.com and Hopin Events products (WebRTC clients and SFU/backend). I've evaluated the platform performance with thousands of concurrent connected participants, helping find bottlenecks, CPU overloads, memory hogs and fixing bugs before they are introduced into production, ensuring a quality service comparable with the state of the art in videoconferencing systems.
 * **July 2012 - June 2021: Researcher at “Dipartimento di Ingegneria Elettrica e dell’Informazione (DEI) of the Polytechnic University of Bari”** on the research topics:
   * December 2020 - June 2021: “Multi-agent deeP ReinfOrceMEnT learning witH applications to thE IndUStry4.0 automation scenarios (PROMETHEUS 4.0)”.
   * August 2018 - December 2020: "Study of control algorithms for the distribution of video content in immersive and multi-angle mode" - research project: "CLIPS".
@@ -21,9 +27,15 @@ layout: single
 * **Jul 2010 - Jun 2021: Co-Founder and Full stack developer at Quavlive S.r.l.** - Software design and development of the QuavStreams platform, that powered [GARR.tv](https://garr.tv/w/aPsMLCoYcjUMBRNghPGJPj) and software development for the [EduMeet](https://edumeet.org/) platform.
 * **July 2006 - December 2006: Contractor at “Politecnico di Torino”** on the research topic: “Performance analysis of innovative internet congestion control techniques”.
 
+## Open source
+* **[webrtcperf](https://github.com/vpalmisano/webrtcperf)** — WebRTC load and QoE testing (concurrent clients, RTC stats, network constraints); related libs: [webrtcperf-js](https://github.com/vpalmisano/webrtcperf-js), [throttler](https://github.com/vpalmisano/throttler).
+* **[mediasoup](https://github.com/versatica/mediasoup)** contributor (SFU bandwidth estimation / KSVC / VP9); [mediasoupbin](https://github.com/vpalmisano/mediasoupbin) GStreamer plugin.
+* **[webrtc-internals-exporter](https://github.com/vpalmisano/webrtc-internals-exporter)** — Chrome extension exporting WebRTC stats to Prometheus/Grafana.
+* **[virtual-background](https://github.com/vpalmisano/virtual-background)** — browser virtual background (MediaPipe + WebGL).
+
 ## Education
 * **January 2007 - April 2010**: Information Engineering Ph.D. at “Polytechnic University of Bari” with the thesis: “Control Algorithms for multimedia streaming”.
-* **August September 2000 - June 2006**: Computer Science Engineering Master degree with honors at “Polytechnic University of Bari” with the thesis: “Control Algorithms for multimedia applications”.
+* **September 2000 - June 2006**: Computer Science Engineering Master degree with honors at “Polytechnic University of Bari” with the thesis: “Control Algorithms for multimedia applications”.
 * **September 1995 - July 2000**: High school degree at: “Liceo Scientifico L. da Vinci Noci” (BA), grade: 100/100.
 
 ## Skills
@@ -34,19 +46,19 @@ layout: single
   * Good/Advanced level: C, C++, Javascript/NodeJS, TypeScript, Python, Bash, HTML, CSS
   * Basic level: Go, Rust, Lua, Adobe Flex, PHP, Java, MATLAB/Simulink
 * Applications
-  * Kubernetes, Docker, Ansible, FFMpeg, NGinx, Apache, GlusterFS, CephFS, Redis, Kafka, Datadog, Prometheus, Grafana, GIT, CVS, SVN, Asterisk, IPtables, Helm, GitHub, Gitlab, Jenkins, RocketChat, NextCloud, LibreOffice, Vim, VSCode, LaTeX, GIMP, Inkscape
+  * Kubernetes, Docker, Ansible, ArgoCD, Helm, FFMpeg, NGinx, Apache, GlusterFS, CephFS, Kafka, Datadog, Prometheus, Grafana, OpenTelemetry, Sentry, GIT, CVS, SVN, Asterisk, IPtables, GitHub, Gitlab, Jenkins, Webpack, RocketChat, NextCloud, LibreOffice, Vim, VSCode, LaTeX, GIMP, Inkscape
 * Frameworks
-  * WebRTC, GStreamer, WebGL, NodeJS, Mocha, Puppeteer, Swagger, Selenium, GTK, Clutter, QT Embedded
+  * WebRTC, mediasoup, GStreamer, MediaPipe, WebGL, Mocha, Jest, Puppeteer, Playwright, Swagger, Selenium, GTK, Clutter, QT Embedded
 * Cloud experience
   * Amazon Web Services (AWS), Azure, Google Cloud/AppEngine, OpenStack
 * Mobile/embedded platforms
   * Basic Android, Freescale IMX, Raspberry Pi, FreeRTOS
 * Web development
-  * Angular, React, Vue, WebComponents, Django, Twisted, jQuery, Material UI, Bootstrap, ExpressJS, Flask, Firebase, Zope/Plone
+  * Angular, React, Vue, WebComponents, Chrome Extensions, Django, Twisted, jQuery, Material UI, Bootstrap, ExpressJS, Flask, Firebase, Zope/Plone
 * Database
   * MySQL, PostgreSQL, Redis, SQLite, MongoDB
 * Protocols / Standards
-  * TCP, UDP, HTTP, DNS, WebRTC, SIP, RTP, RTSP, RTMP, WebRTC, oRTC, WebSocket, MPTCP, MQTT, OAUTH, SAML, Azure AD
+  * TCP, UDP, HTTP, DNS, WebRTC, SIP, RTP, RTSP, RTMP, HLS, DASH, oRTC, WebSocket, MPTCP, MQTT, gRPC, Protobuf, OAUTH, SAML, Azure AD, AV1, VP9, Opus
 
 ## Publications
 [Google Scholar](https://scholar.google.com/citations?user=F2i_spgAAAAJ)
