@@ -62,7 +62,7 @@ plugins:
 author:
   name   : "Vittorio Palmisano"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "PhD, Staff Video Engineer and Full Stack Developer"
+  bio    : "PhD, Software Engineer"
   links:
   - label: "GitHub"
     icon: "fab fa-fw fa-github"
