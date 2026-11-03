@@ -1,0 +1,31 @@
+{
+  "name": "vpalmisano.github.com",
+  "version": "1.0.0",
+  "description": "Personal site for Vittorio Palmisano",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vpalmisano/vpalmisano.github.com.git"
+  },
+  "author": "Vittorio Palmisano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vpalmisano/vpalmisano.github.com/issues"
+  },
+  "homepage": "https://vpalmisano.github.io",
+  "devDependencies": {
+    "vite-plugin-vuetify": "^2.1.3",
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.42"
+  },
+  "dependencies": {
+    "@mdi/js": "^7.4.47",
+    "vuetify": "^4.3.1"
+  }
+}

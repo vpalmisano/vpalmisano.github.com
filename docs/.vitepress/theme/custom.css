@@ -1,0 +1,63 @@
+.VPContent:has(.author-home) {
+  padding-top: var(--vp-nav-height);
+}
+
+.vp-doc a.posts-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 0 20px;
+  height: 38px;
+  margin: 0 0.5rem 0.5rem 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--vp-button-brand-text);
+  background-color: var(--vp-button-brand-bg);
+  border: 1px solid var(--vp-button-brand-border);
+  text-decoration: none;
+  transition:
+    color 0.25s,
+    background-color 0.25s,
+    border-color 0.25s;
+}
+
+.vp-doc a.posts-button:hover {
+  color: var(--vp-button-brand-hover-text);
+  background-color: var(--vp-button-brand-hover-bg);
+  border-color: var(--vp-button-brand-hover-border);
+  text-decoration: none;
+}
+
+.vp-doc a.posts-button:active {
+  color: var(--vp-button-brand-active-text);
+  background-color: var(--vp-button-brand-active-bg);
+  border-color: var(--vp-button-brand-active-border);
+}
+
+.project-github {
+  display: inline-flex;
+  align-items: center;
+  color: var(--vp-c-text-2);
+  text-decoration: none !important;
+  margin: -0.5rem 0 0.75rem;
+}
+
+.project-github:hover {
+  color: var(--vp-c-brand-1);
+}
+
+.project-github svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.cv-publications {
+  font-size: 0.85em;
+  line-height: 1.45;
+  color: var(--vp-c-text-2);
+}
+
+.cv-publications li + li {
+  margin-top: 0.25em;
+}
