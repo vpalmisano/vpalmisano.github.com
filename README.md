@@ -1,9 +1,17 @@
-[Link](https://vpalmisano.github.io)
+# [vpalmisano.github.io](https://vpalmisano.github.io)
 
-[![Build status](https://github.com/vpalmisano/vpalmisano.github.com/actions/workflows/jekyll.yml/badge.svg)](https://github.com/vpalmisano/vpalmisano.github.com/actions/workflows/jekyll.yml)
+[![Build status](https://github.com/vpalmisano/vpalmisano.github.com/actions/workflows/vitepress.yml/badge.svg)](https://github.com/vpalmisano/vpalmisano.github.com/actions/workflows/vitepress.yml)
+
+Personal site built with [VitePress](https://vitepress.dev/).
 
 ```shell
-sudo apt install ruby ruby-dev jekyll ruby-jekyll-paginate ruby-jekyll-sitemap ruby-jekyll-gist ruby-jekyll-feed ruby-jekyll-include-cache
-bundle install
-bundle exec jekyll serve -l -H localhost
+npm install
+npm run docs:dev
+```
+
+Build for production:
+
+```shell
+npm run docs:build
+npm run docs:preview
 ```

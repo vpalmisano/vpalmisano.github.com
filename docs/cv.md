@@ -1,7 +1,6 @@
 ---
-title: "Curriculum Vitae"
-permalink: /cv/
-layout: single
+title: Curriculum Vitae
+outline: deep
 ---
 
 ## Work experience
@@ -32,6 +31,7 @@ layout: single
 * **[mediasoup](https://github.com/versatica/mediasoup)** contributor (SFU bandwidth estimation / KSVC / VP9); [mediasoupbin](https://github.com/vpalmisano/mediasoupbin) GStreamer plugin.
 * **[webrtc-internals-exporter](https://github.com/vpalmisano/webrtc-internals-exporter)** — Chrome extension exporting WebRTC stats to Prometheus/Grafana.
 * **[virtual-background](https://github.com/vpalmisano/virtual-background)** — browser virtual background (MediaPipe + WebGL).
+* **[realtime-voice-playground](https://github.com/vpalmisano/realtime-voice-playground)** — interactive webapp for testing speech-to-speech AI (realtime providers and custom STT → LLM → TTS pipelines).
 
 ## Education
 * **January 2007 - April 2010**: Information Engineering Ph.D. at “Polytechnic University of Bari” with the thesis: “Control Algorithms for multimedia streaming”.
@@ -63,6 +63,8 @@ layout: single
 ## Publications
 [Google Scholar](https://scholar.google.com/citations?user=F2i_spgAAAAJ)
 
+<div class="cv-publications">
+
 * **2020**
   * [OSCT20] Giuseppe Ribezzo, Luca De Cicco, Vittorio Palmisano, Saverio Mascolo “TAPAS-360°: a Tool for the Design and Experimental Evaluation of 360° Video Streaming Systems” ACM Multimedia (Open Source Competition Track), Seattle, United States, 12-16 October 2020
   * [IWC20] Luca De Cicco, Gioacchino Manfredi, Saverio Mascolo, Vittorio Palmisano “A Multi-Commodity Flow Problem for Fair Resource Allocation in Multi-Path Video Delivery Networks” IFAC World Congress 2020, Berlin, Germany, July 2020
@@ -87,3 +89,5 @@ layout: single
   * [WWIC08] L. De Cicco, S. Mascolo and V. Palmisano, “An Experimental Investigation of the End-to-End QoS of the Apple Darwin Streaming Server”, Wired/Wireless Internet Communications (WWIC) 2008, May, 2008
 * **2007**
   * [WWIC07] L. De Cicco, S. Mascolo and V. Palmisano, “An Experimental Investigation of the Congestion Control Used by Skype VoIP”, WWIC 2007, Coimbra, Portugal, ISBN 978-3-540-72694-4, Lecture Notes in Computer Science, Publisher Springer Berlin / Heidelberg, May 2007
+
+</div>
