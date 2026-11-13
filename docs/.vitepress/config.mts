@@ -33,13 +33,20 @@ export default defineConfig({
     [
       'script',
       {
+        type: 'text/plain',
+        'data-category': 'analytics',
+        'data-service': 'ga',
         async: '',
         src: 'https://www.googletagmanager.com/gtag/js?id=G-05SF29M4QB',
       },
     ],
     [
       'script',
-      {},
+      {
+        type: 'text/plain',
+        'data-category': 'analytics',
+        'data-service': 'ga',
+      },
       `window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
@@ -68,7 +75,9 @@ gtag('config', 'G-05SF29M4QB');`,
     },
 
     footer: {
-      copyright: 'Copyright © Vittorio Palmisano',
+      message:
+        'Copyright © Vittorio Palmisano<br/><button type="button" data-cc="show-preferencesModal" class="cc-footer-btn">Cookie preferences</button>',
+      copyright: '',
     },
   },
 })
