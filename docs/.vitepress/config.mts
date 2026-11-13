@@ -50,7 +50,7 @@ gtag('config', 'G-05SF29M4QB');`,
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Curriculum Vitae', link: '/cv' },
+      { text: 'Curriculum Vitae', link: '/cv/' },
       { text: 'Articles', link: '/articles/' },
       { text: 'Projects', link: '/projects/' },
     ],
