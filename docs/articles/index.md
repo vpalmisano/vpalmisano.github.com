@@ -4,6 +4,12 @@ title: Articles
 
 # Articles
 
+## Realtime Voice Playground
+
+This article introduces the [Realtime Voice Playground](https://vpalmisano.github.io/realtime-voice-playground), a browser app for testing and comparing AI voice providers. You can try end-to-end realtime models (OpenAI Realtime, Google Gemini Live, ElevenLabs) or assemble a custom STT → LLM → TTS pipeline from mixed providers, with a live input/output waveform, Q&A timing (including TTFA and barge-in), and [webrtcperf-js](https://github.com/vpalmisano/webrtcperf-js) charts for WebRTC and WebSocket stats.
+
+[Article link](https://vpalmisano.substack.com/p/realtime-voice-playground)
+
 ## Building an efficient web-based webcam Virtual Background
 
 This article explores the technical architecture and implementation details of a web-based webcam [virtual background library](https://github.com/vpalmisano/virtual-background). The project leverages modern browser APIs, WebGL, and machine learning to deliver real-time background segmentation and replacement for webcam video streams, all running client-side, with a particular focus on the system performance.
